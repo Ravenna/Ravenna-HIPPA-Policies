@@ -5,6 +5,7 @@ Time.zone = "UTC"
 set :css_dir, 'assets/css'
 set :js_dir, 'assets/js'
 set :images_dir, 'assets/img'
+set :build_dir, 'docs'
 
 activate :directory_indexes
 
