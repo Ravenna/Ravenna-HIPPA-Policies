@@ -4,19 +4,19 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <!-- Set title to current page title -->
-        <title>Datica HIPAA Docs</title>
+        <title>Ravenna HIPAA Docs</title>
         <meta name="description" content="Our company is built with information security and compliance at its core. Our policies, procedures, and technology go above and beyond HIPAA compliance to ensure our users' data, and their users' data, is secure. We take HIPAA compliance seriously because we believe it is the right thing to do.">
         <!-- Set keyword content to current post keywords data -->
         <meta name="keywords" content="HIPAA, Security, Compliance, Software, Infrastructure, Documentation">
         <meta property="og:description" content="Our company is built with information security and compliance at its core. Our policies, procedures, and technology go above and beyond HIPAA compliance to ensure our users' data, and their users' data, is secure. We take HIPAA compliance seriously because we believe it is the right thing to do.">
-        <meta property="og:title" content="Datica HIPAA Compliance" />
+        <meta property="og:title" content="Ravenna HIPAA Compliance" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://policy.datica.io" />
+        <meta property="og:url" content="https://policy.Ravenna.io" />
         <meta property="og:image" content="/assets/img/logo-82059043.svg" />
         <meta property="og:locale" content="en_US">
         <meta property="twitter:card" content="summary" />
-        <meta property="twitter:site" content="@daticahealth" />
-        <meta property="twitter:title" content="Datica HIPAA Docs" />
+        <meta property="twitter:site" content="@Ravennahealth" />
+        <meta property="twitter:title" content="Ravenna HIPAA Docs" />
         <meta property="twitter:description" content="Our company is built with information security and compliance at its core. Our policies, procedures, and technology go above and beyond HIPAA compliance to ensure our users' data, and their users' data, is secure. We take HIPAA compliance seriously because we believe it is the right thing to do." />
         <meta property="twitter:image" content="/assets/img/logo-82059043.svg" />
         <!-- Icons -->
@@ -37,16 +37,16 @@
         <div class="fixed-bar"></div>
         <header class="main-header">
     <div class="grid">
-        <div class="logo"><img src="/assets/img/logo-82059043.svg" alt="Datica Logo"></div>
+        <div class="logo"><img src="/assets/img/logo-82059043.svg" alt="Ravenna Logo"></div>
         <nav>
-            <a href="//datica.com">Datica Home</a>
-            <a href="//datica.com/about-us">About</a>
+            <a href="//Ravenna.com">Ravenna Home</a>
+            <a href="//Ravenna.com/about-us">About</a>
         </nav>
     </div>
 </header>
 <header class="sub-header">
     <div class="grid">
-        <h1 class="site-title">Datica Compliance</h1>
+        <h1 class="site-title">Ravenna Compliance</h1>
         <a class="up-next" href="/#/">&gt; Policy Docs</a>
     </div>
 </header>
@@ -66,7 +66,7 @@
             <section class="content">
                 <h1 id="9-configuration-management-policy">9. Configuration Management Policy</h1>
 
-<p>Datica standardizes and automates configuration management through the use of Chef/Salt scripts as well as documentation of all changes to production systems and networks. Chef and Salt automatically configure all Datica systems according to established and tested policies, and are used as part of our Disaster Recovery plan and process.</p>
+<p>Ravenna standardizes and automates configuration management through the use of Chef/Salt scripts as well as documentation of all changes to production systems and networks. Chef and Salt automatically configure all Ravenna systems according to established and tested policies, and are used as part of our Disaster Recovery plan and process.</p>
 
 <h2 id="9-1-applicable-standards">9.1 Applicable Standards</h2>
 
@@ -86,8 +86,8 @@
 
 <ol>
 <li>Chef and Salt are used to standardize and automate configuration management.</li>
-<li>No systems are deployed into Datica environments without approval of the Datica CTO.</li>
-<li>All changes to production systems, network devices, and firewalls are approved by the Datica CTO before they are implemented to assure they comply with business and security requirements.</li>
+<li>No systems are deployed into Ravenna environments without approval of the Ravenna CTO.</li>
+<li>All changes to production systems, network devices, and firewalls are approved by the Ravenna CTO before they are implemented to assure they comply with business and security requirements.</li>
 <li>All changes to production systems are tested before they are implemented in production.</li>
 <li>Implementation of approved changes are only performed by authorized personnel.</li>
 <li>Tooling to generate an up-to-date inventory of systems, including corresponding architecture diagrams for related products and services, is hosted on GitLab.
@@ -95,16 +95,16 @@
 <ul>
 <li>All systems are categorized as production and utility to differentiate based on criticality.</li>
 <li>The Security Officer maintains scripts to generate inventory lists on demand using APIs provided by each cloud provider.</li>
-<li>These scripts are used to generate the diagrams and asset lists required by the Risk Assessment phase of Datica&rsquo;s Risk Management procedures (<a href="#4.3-risk-management-procedures">§4.3.1</a>).</li>
+<li>These scripts are used to generate the diagrams and asset lists required by the Risk Assessment phase of Ravenna&rsquo;s Risk Management procedures (<a href="#4.3-risk-management-procedures">§4.3.1</a>).</li>
 <li>After every use of these scripts, the Security Officer will verify their accuracy by reconciling their output with recent changes to production systems. The Security Officer will address any discrepancies immediately with changes to the scripts.</li>
 </ul></li>
 <li>All frontend functionality (developer dashboards and portals) is separated from backend (database and app servers) systems by being deployed on separate servers or containers.</li>
 <li>All software and systems are tested using unit tests and end to end tests.</li>
 <li>All committed code is reviewed using pull requests to assure software code quality and proactively detect potential security issues in development.</li>
-<li>Datica utilizes development and staging environments that mirror production to assure proper function.</li>
-<li>Datica also deploys environments locally using Vagrant to assure functionality before moving to staging or production.</li>
+<li>Ravenna utilizes development and staging environments that mirror production to assure proper function.</li>
+<li>Ravenna also deploys environments locally using Vagrant to assure functionality before moving to staging or production.</li>
 <li>All formal change requests require unique ID and authentication.</li>
-<li>Datica uses the <a href="http://iase.disa.mil/stigs/">Security Technical Implementation Guides (STIGs)</a> published by the Defense Information Systems Agency as a baseline for hardening systems.
+<li>Ravenna uses the <a href="http://iase.disa.mil/stigs/">Security Technical Implementation Guides (STIGs)</a> published by the Defense Information Systems Agency as a baseline for hardening systems.
 
 <ul>
 <li>Windows-based systems use a baseline Active Directory group policy configuration in conjunction with the Windows Server 2012 STIG.</li>
@@ -198,7 +198,7 @@
 <li>Critical infrastructure services such as logging, monitoring, LDAP servers, or Windows Domain Controllers must be configured with appropriate Salt states.
 
 <ul>
-<li>These Salt states have been approved by the VP Engineering and CTO to be in accordance with all Datica policies, including setting appropriate:
+<li>These Salt states have been approved by the VP Engineering and CTO to be in accordance with all Ravenna policies, including setting appropriate:
 
 <ul>
 <li>Audit logging requirements.</li>
@@ -234,7 +234,7 @@
 <h2 id="9-5-patch-management-procedures">9.5 Patch Management Procedures</h2>
 
 <ol>
-<li>Datica uses automated tooling to ensure systems are up-to-date with the latest security patches.</li>
+<li>Ravenna uses automated tooling to ensure systems are up-to-date with the latest security patches.</li>
 <li>On Ubuntu Linux systems, the unattended-upgrades tool is used to apply security patches in phases.
 
 <ul>

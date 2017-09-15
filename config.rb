@@ -21,7 +21,7 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true, :tables => tru
 
 activate :syntax, :wrap => true
 
-set :url_root, 'https://policy.datica.com'
+set :url_root, 'https://policy.Ravenna.com'
 
 activate :search_engine_sitemap
 
